@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+models/
+data/*.csv
+!data/custom_spam.csv
+data/combined_train.csv
+data/enron_spam_data.csv
+uv.lock
+*.joblib
+.pytest_cache/
